@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
     public int sum(int x, int y)
     {
-        return x + y;
+        return x - y;
     }
 
     @Override
