@@ -22,9 +22,9 @@ public class Test_Oranges extends ActivityInstrumentationTestCase2<MainActivity>
         mainActivity = getActivity();
 
         int x,y;
-        x = 100;
-        y = 150;
+        x = 150;
+        y = 100;
 
-        assertEquals(250, mainActivity.sum(x,y));
+        assertEquals(50, mainActivity.sum(x,y));
     }
 }
