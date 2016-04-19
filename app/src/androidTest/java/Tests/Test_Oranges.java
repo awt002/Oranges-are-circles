@@ -25,6 +25,6 @@ public class Test_Oranges extends ActivityInstrumentationTestCase2<MainActivity>
         x = 150;
         y = 100;
 
-        assertEquals(250, mainActivity.sum(x,y));
+        assertEquals(50, mainActivity.sum(x,y));
     }
 }
